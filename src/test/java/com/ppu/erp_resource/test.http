@@ -1,0 +1,4 @@
+# @baseUrl = http://localhost:9994/resources
+@baseUrl = https://localhost:7443/resources
+
+GET {{baseUrl}}/hello
