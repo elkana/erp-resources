@@ -14,7 +14,7 @@ public class ErpResourceApplication {
 		SpringApplication.run(ErpResourceApplication.class, args);
 	}
 
-	@GetMapping("hello")s
+	@GetMapping("hello")
 	public String hello() {
 		return "Hello World Earth";
 	}
